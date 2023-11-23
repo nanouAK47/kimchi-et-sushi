@@ -2,26 +2,84 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer utilities {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+  .flex-between {
+    @apply flex items-center justify-between;
+  }
+  .title {
+    @apply text-4xl font-semibold text-secondary mt-4 md:text-6xl;
+  }
+  .title-white {
+    @apply text-4xl font-semibold text-white mt-4 md:text-6xl;
+  }
+  .subtitle {
+    @apply text-lg text-primary;
+  }
+  .description {
+    @apply text-secondary my-8 md:text-lg;
+  }
+  .button {
+    @apply p-5 rounded-[36px] border-none bg-secondary text-white font-medium text-lg;
+  }
+  .button-menu {
+    @apply mb-2 px-8 py-4 bg-[#ffffff0d] border border-[#ffffff33] rounded-[36px] m-auto text-white cursor-pointer min-w-max hover:bg-white hover:text-primary;
+  }
+  .button-menu-active {
+    @apply bg-white text-primary;
+  }
+  .title-menu {
+    @apply font-semibold text-white text-2xl text-center underline underline-offset-8;
+  }
+  .subtitle-menu {
+    @apply text-xl text-white;
+  }
+  .subtitle-description {
+    @apply text-lg text-white max-w-[300px] md:max-w-full;
+  }
+  .map {
+    @apply w-full h-[40vh];
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  color: inherit;
+  list-style: none;
+  user-select: none;
+}
+
+/* Styles Scrollbar */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff33;
+  border-radius: 10px;
+}
+
+/* Animation Sidebar  */
+.slide {
+  animation: slide 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(75%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
