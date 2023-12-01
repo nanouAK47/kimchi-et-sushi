@@ -18,7 +18,7 @@ export default function Menu() {
           <Tab className="button-menu">Makis</Tab>
           <Tab className="button-menu">Kimchi</Tab>
           <Tab className="button-menu">Temakis</Tab>
-          <Tab className="button-menu">Tatakis</Tab>
+          <Tab className="button-menu">Sashimis</Tab>
           <Tab className="button-menu">California Rolls</Tab>
           <Tab className="button-menu">Saumon Rolls</Tab>
           <Tab className="button-menu">Spring Rolls</Tab>
@@ -274,7 +274,7 @@ export default function Menu() {
 
         <TabPanel className="px-8">
           <h2 className={`${playfair.className} title-menu`}>
-            Tatakis (10 pièces)
+            Sashimi (10 pièces)
           </h2>
           <div className="flex justify-between my-5 border-b border-[#ffffff33]">
             <h3 className={`${playfair.className} subtitle-description`}>
@@ -289,6 +289,13 @@ export default function Menu() {
             </h3>
 
             <p className="subtitle-description">12,50€</p>
+          </div>
+          <div className="flex justify-between my-5 border-b border-[#ffffff33]">
+            <h3 className={`${playfair.className} subtitle-description`}>
+              Mixte
+            </h3>
+
+            <p className="subtitle-description">13,00€</p>
           </div>
         </TabPanel>
 
