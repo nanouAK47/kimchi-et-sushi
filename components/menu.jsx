@@ -274,7 +274,7 @@ export default function Menu() {
 
         <TabPanel className="px-8">
           <h2 className={`${playfair.className} title-menu`}>
-            Sashimi (10 pièces)
+            Sashimis (10 pièces)
           </h2>
           <div className="flex justify-between my-5 border-b border-[#ffffff33]">
             <h3 className={`${playfair.className} subtitle-description`}>
