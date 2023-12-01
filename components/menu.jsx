@@ -336,7 +336,7 @@ export default function Menu() {
               Saumon (cheese ou avocat)
             </h3>
 
-            <p className="subtitle-description">7,00€</p>
+            <p className="subtitle-description">7,50€</p>
           </div>
         </TabPanel>
 
