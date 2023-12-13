@@ -73,7 +73,7 @@ export default function Menu() {
               </h3>
             </div>
 
-            <p className="subtitle-description">12,50€</p>
+            <p className="subtitle-description">9,00€</p>
           </div>
           <div className="flex justify-between my-5 border-b border-[#ffffff33]">
             <div className="flex flex-col items-start text-start">
@@ -110,6 +110,15 @@ export default function Menu() {
             </div>
 
             <p className="subtitle-description">6,50€</p>
+          </div>
+          <div className="flex justify-between my-5 border-b border-[#ffffff33]">
+            <div className="flex flex-col items-start text-start">
+              <h3 className={`${playfair.className} subtitle-description`}>
+                Suppléments (cheese, avocat)
+              </h3>
+            </div>
+
+            <p className="subtitle-description">0,50€</p>
           </div>
         </TabPanel>
 

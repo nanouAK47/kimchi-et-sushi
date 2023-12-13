@@ -7,12 +7,12 @@ import Footer from "../components/footer";
 export const metadata = {
   title: "Kimchi & Sushi | restaurant asiatique à Neufchâteau",
   description:
-    "Kimchi & Sushi est un restaurant asiatique à Neufchâteau. Appelez-nous au 03 29 06 22 35. Ouvert de 11h à 14h et de 18h à 22h, fermé lundi et mardi.",
+    "Kimchi & Sushi est un restaurant asiatique à Neufchâteau. Appelez-nous au 03 29 06 22 35. Ouvert 7j/7 du lundi au dimanche.",
   openGraph: {
     title:
       "Kimchi & Sushi à Neufchâteau, pour les amoureux des plaisirs asiatique !",
     description:
-      "Kimchi & Sushi, restaurant asiatique à Neufchâteau. Appelez-nous au 03 29 06 22 35. Ouvert de 11h à 14h et de 18h à 22h, fermé lundi et mardi.",
+      "Kimchi & Sushi, restaurant asiatique à Neufchâteau. Appelez-nous au 03 29 06 22 35. Ouvert 7j/7 du lundi au dimanche.",
     url: "https://kimchi-sushi.fr",
     siteName: "Kimchi & Sushi",
     phoneNumbers: "03 29 06 22 35",

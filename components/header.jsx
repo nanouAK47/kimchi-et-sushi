@@ -33,18 +33,8 @@ export default function Header() {
 
           <div className="flex flex-col gap-9 md:flex-row">
             <a href="tel:0329062235" className="button">
-              03 29 06 22 35
+              Commandez à emporter
             </a>
-            <button className="border-none bg-transparent flex items-center text-black-200">
-              <Image
-                src="/play-circle.svg"
-                alt="play"
-                width={56}
-                height={56}
-                className="mr-3"
-              />
-              Voir la vidéo
-            </button>
           </div>
         </div>
 
@@ -67,9 +57,7 @@ export default function Header() {
               height={24}
               className="mr-3"
             />{" "}
-            Ouvert de 11h à 14h et de 18h à 22h.
-            <br />
-            Fermé lundi et mardi.
+            Ouvert 7j/7 du lundi au dimanche !
           </p>
         </div>
       </div>

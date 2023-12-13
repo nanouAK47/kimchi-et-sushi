@@ -12,7 +12,6 @@ const center = {
 export default function Contact() {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    // @ts-ignore
     googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
   });
 
@@ -38,7 +37,7 @@ export default function Contact() {
         <h2 className="text-lg text-white my-8">
           03 29 06 22 35 <br />
           8 rue de France, 88300 Neufchâteau <br />
-          11h-14h et 18h-22h, fermé lundi et mardi !
+          Ouvert 7j/7 du lundi au dimanche !
         </h2>
       </div>
 
