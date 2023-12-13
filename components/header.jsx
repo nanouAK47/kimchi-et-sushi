@@ -57,7 +57,7 @@ export default function Header() {
               height={24}
               className="mr-3"
             />{" "}
-            Ouvert 7j/7 du lundi au dimanche !
+            Ouvert 7j/7 de 11h à 14h et de 18h à 22h.
           </p>
         </div>
       </div>

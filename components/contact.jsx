@@ -37,7 +37,7 @@ export default function Contact() {
         <h2 className="text-lg text-white my-8">
           03 29 06 22 35 <br />
           8 rue de France, 88300 Neufchâteau <br />
-          Ouvert 7j/7 du lundi au dimanche !
+          Ouvert 7j/7 de 11h à 14h et de 18h à 22h.
         </h2>
       </div>
 
